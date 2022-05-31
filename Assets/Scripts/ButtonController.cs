@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//relevant with Photo panel not userlist panel
 public class ButtonController : MonoBehaviour
 {
     public Image thumbnail;
@@ -35,15 +36,14 @@ public class ButtonController : MonoBehaviour
 
     public void LoadContent()
     {
-        Debug.LogError("test");
-        accessVariables.XrCamera.cullingMask = accessVariables.onlyPhotoLayer;
-        accessVariables.Photo360.GetComponent<Renderer>().material.mainTexture = buttonData.photoTexture;
-        accessVariables.Photo360.transform.eulerAngles = new Vector3(0f, buttonData.photoYRotation, 0f);
-        accessVariables.photoName.text = buttonData.photoName;
-        accessVariables.photoId = buttonData.photoId;
-        accessVariables.Photo360.SetActive(true);
-        accessVariables.playerCanvasMenu.SetActive(true);
-        accessVariables.selectionCanvas.SetActive(false);
+        // PhotoManagerController.Singleton.LoadPhoto(buttonData.photoId);
+        //accessVariables.playerCanvasMenu.SetActive(true);
+        //accessVariables.selectionCanvas.SetActive(false);
+        Photon_PhotoManager.Singleton.state.PhotoId = buttonData.photoId;
+        accessVariables.rawImage.SetActive(true);
+        accessVariables.userListPanel.SetActive(true);
+        accessVariables.photoContent.SetActive(false);
+
     }
 
   

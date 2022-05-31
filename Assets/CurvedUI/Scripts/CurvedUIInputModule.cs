@@ -31,7 +31,7 @@ public class CurvedUIInputModule : StandaloneInputModule {
 
     //Common
     [SerializeField]
-    CUIControlMethod controlMethod;
+    public CUIControlMethod controlMethod;
     [SerializeField]
     string submitButtonName = "Fire1";
     [SerializeField]
@@ -1223,8 +1223,8 @@ public class CurvedUIInputModule : StandaloneInputModule {
     #region ENUMS
     public enum CUIControlMethod
     {
-	    MOUSE = 0,
-	    GAZE = 1,
+        UNITY_XR = 0,
+        GAZE = 1,
 	    WORLD_MOUSE = 2,
 	    CUSTOM_RAY = 3,
 	    STEAMVR_LEGACY = 4, //SDK version 1.2.3 or earlier
@@ -1232,7 +1232,7 @@ public class CurvedUIInputModule : StandaloneInputModule {
 	    //DAYDREAM = 6,//deprecated, GoogleVR is now used for daydream.
 	    GOOGLEVR = 7,
         STEAMVR_2 = 8, //SDK version 2.0 or later
-        UNITY_XR = 9,
+        MOUSE = 9,
     }
 
     public enum Hand

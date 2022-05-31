@@ -17,32 +17,32 @@ MonoBehaviour:
     photoTexture: {fileID: 2800000, guid: 7eaa0c7a1cd1b9449972df6d85da62db, type: 3}
     photoName: Times Square
     photoSprite: {fileID: 21300000, guid: 159291d4660a7574cb055351f0f3e155, type: 3}
-    photoYRotation: 0
+    photoYRotation: 20
   - photoId: 1
     photoTexture: {fileID: 2800000, guid: c27a15bd1008127468a6bfc77bee38e0, type: 3}
     photoName: Miami
     photoSprite: {fileID: 21300000, guid: c7859901cd522b1429cdf5033ffa00d1, type: 3}
-    photoYRotation: 0
+    photoYRotation: -20
   - photoId: 2
     photoTexture: {fileID: 2800000, guid: eb4bdc022e397c34f91ce08784c06ca8, type: 3}
-    photoName: Thes Square at Night
+    photoName: Times  Square at Night
     photoSprite: {fileID: 21300000, guid: e1a3033138f68dd47af26ea05f0f0a47, type: 3}
     photoYRotation: 0
   - photoId: 3
     photoTexture: {fileID: 2800000, guid: d65c754286a2c544ca7dfbbe23a09e91, type: 3}
     photoName: Colt
     photoSprite: {fileID: 21300000, guid: 81814bf856955604789513faa88d81fb, type: 3}
-    photoYRotation: 0
+    photoYRotation: 20
   - photoId: 4
     photoTexture: {fileID: 2800000, guid: cc1eeb7d216d666468d0763d7483fbe2, type: 3}
     photoName: San Francisco
     photoSprite: {fileID: 21300000, guid: dc013f1eddcc677438f8d9128dae6ab6, type: 3}
-    photoYRotation: 0
+    photoYRotation: -265.212
   - photoId: 5
     photoTexture: {fileID: 2800000, guid: 33b946ea89eb01144808473905171aae, type: 3}
     photoName: Lake
     photoSprite: {fileID: 21300000, guid: 32e00d2bbffc1ab42b7d9ef404f2f5d8, type: 3}
-    photoYRotation: 0
+    photoYRotation: -355.768
   - photoId: 6
     photoTexture: {fileID: 2800000, guid: 3bd972dc7aab93a48867ab53d14d9b8b, type: 3}
     photoName: Landscape
@@ -52,4 +52,4 @@ MonoBehaviour:
     photoTexture: {fileID: 2800000, guid: a94070e93062fc749adcbbeefce6a584, type: 3}
     photoName: Miami Beach
     photoSprite: {fileID: 21300000, guid: df36a559a807d664e8d5ab1bcb3442db, type: 3}
-    photoYRotation: 0
+    photoYRotation: -586.151

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: e44fc35de7f3b7f418a969c8246816b3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bahnschrift
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 74b1af230959f9343a70f377100a527b, type: 3}
+  - {fileID: 12800000, guid: 400717992c46c91478cff4dc06ce175e, type: 3}
+  - {fileID: 12800000, guid: 404c343a7f68db445b5c9a23aee22527, type: 3}
+  - {fileID: 12800000, guid: d2711e1727044234f94ea08d05fe4548, type: 3}
+  - {fileID: 12800000, guid: 823816d014eb7bf4997b8147187c17b2, type: 3}
+  - {fileID: 12800000, guid: 6f1c115d02a709a498e75cd87355824e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
